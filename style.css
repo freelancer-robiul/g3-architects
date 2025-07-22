@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+ul li a{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    
+}

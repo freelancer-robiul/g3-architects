@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>g3-architects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>G3-Architects</h1>
+
+    <header class="container bg-[rgba(255, 144, 14, 0.1)]">
+
+        <header-nav class="flex justify-between items-center py-[50px] pl-[228px] pr-[240px]">
+            <div class="header-logo">
+                <h1 class="text-[45px] font-bold text-[rgb(19, 19, 19)] leading-[53px]">G3 Architects</h1>
+            </div>
+            <div class="header-menu">
+                <ul class="flex">
+                    <li class="mr-[20px]"><a href="">Home</a></li>
+                    <li class="mr-[20px]"><a href="">About</a></li>
+                    <li class="mr-[20px]"><a href="">Contact Us</a></li>
+                    <li class="mr-[20px]"><a href="">Login</a></li>
+                </ul>
+            </div>
+        </header-nav>
+
+        <header-content class="container text-center">
+            <div class="content py-[100px] px-[350px]">
+
+                <h1 class="text-[64px] text-[rgb(19, 19, 19)] leading-[75px] font-bold mb-[15px]">Brand New<br>Group of Architects</h1>
+
+                <p class="text-[16px] text-[rgb(114, 114, 114)] font-light leading-[26px] mb-[20px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+
+                <button class="bg-[#FF900E] text-white text-[20px] font-semibold py-[10px] px-[30px] rounded-[10px] mb-[15px]">Explore More</button>
+                
+            </div>
+        </header-content>
+
+
+        <section class="banner px-[240px] pb-[45px]">
+            <div class="bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center w-full h-[700px] rounded-[10px]">
+            </div>
+          </section>
+
+    </header>
+    
 </body>
 </html>
